@@ -1,0 +1,48 @@
+/*Form Style*/
+    /*Validate style
+    div.et-pb-contact-message{
+        color: #fff !important;
+        position: absolute;
+        background-color: #0000005e;
+        z-index: 100000000;
+        width: 25%;
+        height: 65%;
+        padding: 20px;
+        border: 1px solid #ff0000;
+        border-radius: 15px;
+        display: none;
+        right: 83%;
+    }*/
+
+    div.et-pb-contact-message{
+        display: none;
+    }
+
+    input.et_contact_error:after{
+        content: ' * ';
+    }
+
+    .et_pb_contact p .et_contact_error {
+        border: 2px solid red!important;
+    }
+
+    /*--------------*/
+
+    /*Form tipography style*/
+    form.et_pb_contact_form.clearfix{
+        input.input{
+            font-family: $tipographyGeneral !important;
+        }
+        select.et_pb_contact_select.input{
+            font-family: $tipographyGeneral !important;
+        }
+        textarea.et_pb_contact_message.input{
+            font-family: $tipographyGeneral !important;
+        }
+
+        color: #000 !important;
+    }
+
+    /*---------------------*/
+/*---------*/
+

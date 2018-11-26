@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/*
+ Theme Name:     Divi Child
+ Theme URI:      N/A
+ Description:    Tema hijo de divi para analiticom 
+ Author:         Andres Salazar, Analiticom todos los derechos reservados Γ¥ñ
+ Author URI:     N/A
+ Template:       Divi
+ Version:        1.0.0
+*/
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* line 5, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*Body Style*/
+/*Scroll Y hidden*/
+/* line 3, assets/css/sass/partials/_bodyStyleAnaliticom.scss */
+body {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+/*---------------*/
+/*Variables  estilos*/
+/*Colores de fondo*/
+/*------------------------*/
+/*section height and width and others*/
+/*---------------------------------*/
+/*-------------------*/
+/*Nav Style*/
+/* line 2, assets/css/sass/partials/_navStyle.scss */
+div#et-top-navigation {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+/* line 7, assets/css/sass/partials/_navStyle.scss */
+span.trp-ls-language-name.dynamiClassNav-nro-0 {
+  border-right: 1.5px solid #d0d0d0;
+  padding-right: 9px;
+}
+
+/* line 12, assets/css/sass/partials/_navStyle.scss */
+#top-menu li {
+  display: inline-block;
+  padding-right: 5px !important;
+  font-size: 14px;
+}
+
+/* line 19, assets/css/sass/partials/_navStyle.scss */
+.top-menu-nav a:hover {
+  color: #eb6947 !important;
+}
+
+/* line 24, assets/css/sass/partials/_navStyle.scss */
+#main-header .et_mobile_menu {
+  background-color: white !important;
+}
+
+/*---------*/
+/*Tipography style*/
+/* line 2, assets/css/sass/partials/tipography.scss */
+a#btn-blue.et_pb_button.et_pb_button_0.btn-blue-first-banner.et_pb_bg_layout_light {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+/* line 7, assets/css/sass/partials/tipography.scss */
+p.text-we-work span {
+  font-size: 30px;
+  line-height: 35px;
+  color: #adadad;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+/*---------------*/
+/*Modificaciones de secciones*/
+/* line 3, assets/css/sass/partials/_sectionsStyle.scss */
+div.et_pb_section.et_pb_section_0.first-section-blue-analiticom.et_section_regular.et_pb_section_first {
+  height: 100vh;
+}
+
+/* line 7, assets/css/sass/partials/_sectionsStyle.scss */
+.et_pb_section.et_pb_section_0.first-section-blue-analiticom.et_section_regular.et_pb_section_first {
+  padding-top: 100px !important;
+}
+
+/* line 11, assets/css/sass/partials/_sectionsStyle.scss */
+div.first-text-img-container,
+div.second-text-img-container,
+div.third-text-img-container {
+  display: -webkit-inline-box;
+}
+
+/* line 17, assets/css/sass/partials/_sectionsStyle.scss */
+div.img-text-container {
+  display: inline-flex;
+  margin-top: 10%;
+}
+
+/* line 22, assets/css/sass/partials/_sectionsStyle.scss */
+div.img-first-container,
+div.img-second-container,
+div.img-third-container {
+  margin-right: 30px;
+}
+
+/* line 28, assets/css/sass/partials/_sectionsStyle.scss */
+p.first-img-text,
+p.second-img-text,
+p.third-img-text {
+  margin-top: 8%;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+  color: #adadad;
+}
+
+/*Image Style width and height*/
+/* line 4, assets/css/sass/partials/_imgStyle.scss */
+.et_pb_module.et_pb_image.et_pb_image_0.img-analiticom-contruction-a.et_always_center_on_mobile img {
+  max-width: 100vh !important;
+  position: relative;
+}
+
+/*Deleted sections and containers*/
+/* line 3, assets/css/sass/partials/_divDisplayNone.scss */
+div#footer-bottom {
+  display: none !important;
+}
+
+/*BTN come back up style*/
+/* line 3, assets/css/sass/partials/_btnComeBackUp.scss */
+.et_pb_scroll_top.et-pb-icon.et-visible,
+.et_pb_scroll_top.et-pb-icon.et-hidden {
+  right: 2%;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #eb6847;
+}
+
+/*Btn First banner style*/
+/* line 2, assets/css/sass/partials/_btnAnaliticom.scss */
+a.et_pb_button.et_pb_button_0.btn-blue-first-banner.et_pb_bg_layout_light {
+  background-color: #0165c5;
+  color: #fff;
+  padding: 5px 45px 5px 45px;
+  border-radius: 11px;
+}
+
+/*Btn form section*/
+/* line 12, assets/css/sass/partials/_btnAnaliticom.scss */
+form.et_pb_contact_form.clearfix .et_pb_contact_submit.et_pb_button {
+  background-color: #eb6947;
+  color: #fff;
+  padding: 5px 60px 5px 60px;
+  border-radius: 9px;
+  border: none;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+/*Form Style*/
+/*Validate style
+div.et-pb-contact-message{
+    color: #fff !important;
+    position: absolute;
+    background-color: #0000005e;
+    z-index: 100000000;
+    width: 25%;
+    height: 65%;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    display: none;
+    right: 83%;
+}*/
+/* line 17, assets/css/sass/partials/_formStyle.scss */
+div.et-pb-contact-message {
+  display: none;
+}
+
+/* line 21, assets/css/sass/partials/_formStyle.scss */
+input.et_contact_error:after {
+  content: ' * ';
+}
+
+/* line 25, assets/css/sass/partials/_formStyle.scss */
+.et_pb_contact p .et_contact_error {
+  border: 2px solid red !important;
+}
+
+/*--------------*/
+/*Form tipography style*/
+/* line 32, assets/css/sass/partials/_formStyle.scss */
+form.et_pb_contact_form.clearfix {
+  color: #000 !important;
+}
+/* line 33, assets/css/sass/partials/_formStyle.scss */
+form.et_pb_contact_form.clearfix input.input {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+/* line 36, assets/css/sass/partials/_formStyle.scss */
+form.et_pb_contact_form.clearfix select.et_pb_contact_select.input {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+/* line 39, assets/css/sass/partials/_formStyle.scss */
+form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+/*---------------------*/
+/*---------*/
+/*@media query*/
+@media screen and (max-width: 991px) {
+  /* line 4, assets/css/sass/partials/_@media.scss */
+  body {
+    overflow-y: scroll !important;
+  }
+
+  /* line 8, assets/css/sass/partials/_@media.scss */
+  a.et_pb_button.et_pb_button_1.btn-blue-first-banner.et_pb_bg_layout_light {
+    background-color: #0165c5;
+    color: #fff;
+    padding: 5px 45px 5px 45px;
+    border-radius: 11px;
+  }
+
+  /* line 15, assets/css/sass/partials/_@media.scss */
+  .et_pb_section_2 {
+    padding-top: 100px !important;
+    padding-right: 0px;
+    padding-bottom: 54px;
+    padding-left: 0px;
+  }
+
+  /*MENU RESPONSIVE*/
+  /* line 25, assets/css/sass/partials/_@media.scss */
+  ul.et_mobile_menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* line 30, assets/css/sass/partials/_@media.scss */
+  li#menu-item-77,
+  li#menu-item-76 {
+    display: inline-flex;
+    margin-left: 10px;
+  }
+  /* line 34, assets/css/sass/partials/_@media.scss */
+  li#menu-item-77 span.trp-ls-language-name.dynamiClassNav-nro-0,
+  li#menu-item-77 span.trp-ls-language-name.dynamiClassNav-nro-1,
+  li#menu-item-76 span.trp-ls-language-name.dynamiClassNav-nro-0,
+  li#menu-item-76 span.trp-ls-language-name.dynamiClassNav-nro-1 {
+    color: #000 !important;
+    font-size: 20px;
+  }
+
+  /*---------------*/
+  /* line 43, assets/css/sass/partials/_@media.scss */
+  div.img-first-container, div.img-second-container, div.img-third-container {
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 49, assets/css/sass/partials/_@media.scss */
+  body {
+    overflow-y: scroll !important;
+  }
+
+  /* line 53, assets/css/sass/partials/_@media.scss */
+  .et_pb_module.et_pb_image.et_pb_image_0.img-analiticom-contruction-a.et_always_center_on_mobile img {
+    max-width: 100vh !important;
+    position: relative;
+    top: 34vh;
+    right: 20vh;
+  }
+
+  /* line 60, assets/css/sass/partials/_@media.scss */
+  div.et_pb_section.et_pb_section_0 {
+    background-image: linear-gradient(360deg, #0165c5 46%, #ffffff 0%) !important;
+  }
+}

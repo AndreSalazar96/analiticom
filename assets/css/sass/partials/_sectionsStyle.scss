@@ -1,0 +1,37 @@
+/*Modificaciones de secciones*/
+
+div.et_pb_section.et_pb_section_0.first-section-blue-analiticom.et_section_regular.et_pb_section_first{
+    height: $fullHeight;
+}
+
+.et_pb_section.et_pb_section_0.first-section-blue-analiticom.et_section_regular.et_pb_section_first{
+    padding-top: 100px !important;
+}
+
+div.first-text-img-container,
+div.second-text-img-container,
+div.third-text-img-container{
+    display: -webkit-inline-box;
+}
+
+div.img-text-container{
+    display: inline-flex;
+    margin-top: 10%;
+}
+
+div.img-first-container,
+div.img-second-container,
+div.img-third-container{
+    margin-right: 30px;
+}
+
+p.first-img-text,
+p.second-img-text,
+p.third-img-text{
+    margin-top: 8%;
+    font-family: $tipographyGeneral !important;
+    color: #adadad;
+}
+
+
+

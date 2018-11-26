@@ -1,0 +1,29 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      N/A
+ Description:    Tema hijo de divi para analiticom 
+ Author:         Andres Salazar, Analiticom todos los derechos reservados ❤
+ Author URI:     N/A
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+@import "compass";
+@import "compass/reset";
+
+//here we important our partials
+@import "partials/bodyStyleAnaliticom";
+@import "partials/variables";
+@import "partials/navStyle";
+@import "partials/tipography.scss";
+@import "partials/sectionsStyle";
+@import "partials/imgStyle";
+@import "partials/divDisplayNone";
+@import "partials/btnComeBackUp";
+@import "partials/btnAnaliticom";
+@import "partials/formStyle";
+@import "partials/@media";
