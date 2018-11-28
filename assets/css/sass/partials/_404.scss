@@ -31,9 +31,10 @@ body.error404{
         strong.strong-blue-404{
             padding: 0px 40px 0px 40px;
             color: #fff;
-            background-color: $naranjaColor;
-            border-radius: 13px;
+            background-color: #eb6947;
+            border-radius: 6px;
             transition: 0.5s;
+            font-size: 35px;
 
             &:hover{
                 background-color: #fff;
@@ -49,11 +50,15 @@ body.error404{
         }
     }
     div#main-content{
-        background-image: linear-gradient(341deg,#0165c5 46%,#ffffff 0%)!important;
+        background-image: linear-gradient(341deg,#0165c5 46%,#ffffff 0%);
         height: 100vh;
     }
 
     div.container{
         padding-top: 80px !important;
+    }
+
+    a.redirect-btn-orange{
+        display: block;
     }
 }

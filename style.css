@@ -338,14 +338,68 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
   div.img-first-container, div.img-second-container, div.img-third-container {
     margin-right: 0 !important;
   }
+
+  /*Page error 404 responsive*/
+  /* line 50, assets/css/sass/partials/_@media.scss */
+  body.error404 div.entry h1 {
+    font-size: 133px;
+    color: #eb6947;
+  }
+  /* line 55, assets/css/sass/partials/_@media.scss */
+  body.error404 div.entry p {
+    font-size: 19px !important;
+    line-height: 75px;
+    width: 180vh;
+    color: #eb6947;
+  }
+  /* line 63, assets/css/sass/partials/_@media.scss */
+  body.error404 strong.strong-blue-404 {
+    padding: 0px 40px 0px 40px;
+    color: #fff;
+    background-color: #eb6947;
+    border-radius: 13px;
+    transition: 0.5s;
+    font-size: 49px !important;
+  }
+  /* line 72, assets/css/sass/partials/_@media.scss */
+  body.error404 div#main-content {
+    background-image: linear-gradient(300deg, #0165c5 46%, #ffffff 0%) !important;
+    height: 100vh;
+  }
+  /* line 77, assets/css/sass/partials/_@media.scss */
+  body.error404 span.text-responsive-white {
+    color: #fff;
+    position: relative;
+    left: 1%;
+  }
+  /* line 83, assets/css/sass/partials/_@media.scss */
+  body.error404 div.container {
+    padding-top: 20% !important;
+  }
+
+  /*------------------------*/
+}
+@media screen and (min-width: 768px) {
+  /* line 92, assets/css/sass/partials/_@media.scss */
+  body.error404 div.container {
+    padding-top: 30% !important;
+  }
+  /* line 96, assets/css/sass/partials/_@media.scss */
+  body.error404 div.entry p {
+    font-size: 35px !important;
+  }
+  /* line 100, assets/css/sass/partials/_@media.scss */
+  body.error404 div#main-content {
+    background-image: linear-gradient(310deg, #0165c5 47%, #ffffff 0%) !important;
+  }
 }
 @media screen and (max-width: 1024px) {
-  /* line 49, assets/css/sass/partials/_@media.scss */
+  /* line 108, assets/css/sass/partials/_@media.scss */
   body {
     overflow-y: scroll !important;
   }
 
-  /* line 53, assets/css/sass/partials/_@media.scss */
+  /* line 112, assets/css/sass/partials/_@media.scss */
   .et_pb_module.et_pb_image.et_pb_image_0.img-analiticom-contruction-a.et_always_center_on_mobile img {
     max-width: 100vh !important;
     position: relative;
@@ -353,7 +407,7 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
     right: 20vh;
   }
 
-  /* line 60, assets/css/sass/partials/_@media.scss */
+  /* line 119, assets/css/sass/partials/_@media.scss */
   div.et_pb_section.et_pb_section_0 {
     background-image: linear-gradient(360deg, #0165c5 46%, #ffffff 0%) !important;
   }
@@ -391,27 +445,32 @@ body.error404 div.entry strong.strong-blue-404 {
   padding: 0px 40px 0px 40px;
   color: #fff;
   background-color: #eb6947;
-  border-radius: 13px;
+  border-radius: 6px;
   transition: 0.5s;
+  font-size: 35px;
 }
-/* line 38, assets/css/sass/partials/_404.scss */
+/* line 39, assets/css/sass/partials/_404.scss */
 body.error404 div.entry strong.strong-blue-404:hover {
   background-color: #fff;
   border: 3px solid #eb6947;
   color: #eb6947;
   transition: 0.5s;
 }
-/* line 46, assets/css/sass/partials/_404.scss */
+/* line 47, assets/css/sass/partials/_404.scss */
 body.error404 div.entry h1 {
   font-size: 240px;
   color: #eb6947;
 }
-/* line 51, assets/css/sass/partials/_404.scss */
+/* line 52, assets/css/sass/partials/_404.scss */
 body.error404 div#main-content {
-  background-image: linear-gradient(341deg, #0165c5 46%, #ffffff 0%) !important;
+  background-image: linear-gradient(341deg, #0165c5 46%, #ffffff 0%);
   height: 100vh;
 }
-/* line 56, assets/css/sass/partials/_404.scss */
+/* line 57, assets/css/sass/partials/_404.scss */
 body.error404 div.container {
   padding-top: 80px !important;
+}
+/* line 61, assets/css/sass/partials/_404.scss */
+body.error404 a.redirect-btn-orange {
+  display: block;
 }
