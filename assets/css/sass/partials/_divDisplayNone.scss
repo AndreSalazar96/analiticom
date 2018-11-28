@@ -3,3 +3,20 @@
 div#footer-bottom{
     display: none !important;
 }
+
+/*Deleted style in 404 page*/
+    body.error404{
+        header#main-header,
+        div#sidebar{
+            display: none;
+        }
+
+        .et_right_sidebar #main-content .container:before {
+            right: 100%!important;
+        }
+
+        #main-content.container:before{
+            position: initial !important;
+        }
+    }
+/*-------------------------*/
