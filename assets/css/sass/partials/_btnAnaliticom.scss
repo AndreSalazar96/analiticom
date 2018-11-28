@@ -4,6 +4,10 @@ a.et_pb_button.et_pb_button_0.btn-blue-first-banner.et_pb_bg_layout_light{
         color: #fff;
         padding: 5px 45px 5px 45px;
         border-radius: 11px;
+
+        &:hover{
+            background-color: #eb6947;
+        } 
     }
 
 /*Btn form section*/

@@ -206,9 +206,13 @@ a.et_pb_button.et_pb_button_0.btn-blue-first-banner.et_pb_bg_layout_light {
   padding: 5px 45px 5px 45px;
   border-radius: 11px;
 }
+/* line 8, assets/css/sass/partials/_btnAnaliticom.scss */
+a.et_pb_button.et_pb_button_0.btn-blue-first-banner.et_pb_bg_layout_light:hover {
+  background-color: #eb6947;
+}
 
 /*Btn form section*/
-/* line 12, assets/css/sass/partials/_btnAnaliticom.scss */
+/* line 16, assets/css/sass/partials/_btnAnaliticom.scss */
 form.et_pb_contact_form.clearfix .et_pb_contact_submit.et_pb_button {
   background-color: #eb6947;
   color: #fff;
