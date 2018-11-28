@@ -258,31 +258,21 @@ div.et-pb-contact-message {
   display: none;
 }
 
-/* line 21, assets/css/sass/partials/_formStyle.scss */
-input.et_contact_error:after {
-  content: ' * ';
-}
-
-/* line 25, assets/css/sass/partials/_formStyle.scss */
-.et_pb_contact p .et_contact_error {
-  border: 2px solid red !important;
-}
-
 /*--------------*/
 /*Form tipography style*/
-/* line 32, assets/css/sass/partials/_formStyle.scss */
+/* line 24, assets/css/sass/partials/_formStyle.scss */
 form.et_pb_contact_form.clearfix {
   color: #000 !important;
 }
-/* line 33, assets/css/sass/partials/_formStyle.scss */
+/* line 25, assets/css/sass/partials/_formStyle.scss */
 form.et_pb_contact_form.clearfix input.input {
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
 }
-/* line 36, assets/css/sass/partials/_formStyle.scss */
+/* line 28, assets/css/sass/partials/_formStyle.scss */
 form.et_pb_contact_form.clearfix select.et_pb_contact_select.input {
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
 }
-/* line 39, assets/css/sass/partials/_formStyle.scss */
+/* line 31, assets/css/sass/partials/_formStyle.scss */
 form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
 }
