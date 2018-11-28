@@ -4,7 +4,7 @@ function changeLogoAbove(){
             jQuery('#logo').attr('src', 'http://dev-analiticom.com/analiticom/wp-content/uploads/2018/11/logo-analiticom-w.png');
         }
         if (jQuery(this).scrollTop() < 500){
-            jQuery('#logo').attr('src', 'http://dev-analiticom.com/wp-content/uploads/2018/11/Analiticom-logo-1080x675.png');
+            jQuery('#logo').attr('src', 'http://dev-analiticom.com/analiticom/wp-content/uploads/2018/11/Analiticom-logo-1080x675.png');
         } 	
     });
 }
