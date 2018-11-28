@@ -393,13 +393,22 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
     background-image: linear-gradient(310deg, #0165c5 47%, #ffffff 0%) !important;
   }
 }
+@media screen and (max-width: 1912px) {
+  /* line 107, assets/css/sass/partials/_@media.scss */
+  .et_pb_module.et_pb_image.et_pb_image_0.img-analiticom-contruction-a.et_always_center_on_mobile img {
+    max-width: 100vh !important;
+    position: relative;
+    top: 4pc;
+    left: 10pc;
+  }
+}
 @media screen and (max-width: 1024px) {
-  /* line 108, assets/css/sass/partials/_@media.scss */
+  /* line 117, assets/css/sass/partials/_@media.scss */
   body {
     overflow-y: scroll !important;
   }
 
-  /* line 112, assets/css/sass/partials/_@media.scss */
+  /* line 121, assets/css/sass/partials/_@media.scss */
   .et_pb_module.et_pb_image.et_pb_image_0.img-analiticom-contruction-a.et_always_center_on_mobile img {
     max-width: 100vh !important;
     position: relative;
@@ -407,7 +416,7 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
     right: 20vh;
   }
 
-  /* line 119, assets/css/sass/partials/_@media.scss */
+  /* line 128, assets/css/sass/partials/_@media.scss */
   div.et_pb_section.et_pb_section_0 {
     background-image: linear-gradient(360deg, #0165c5 46%, #ffffff 0%) !important;
   }
