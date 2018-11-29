@@ -43,6 +43,64 @@
 div.img-first-container, div.img-second-container, div.img-third-container{
     margin-right: 0 !important;
 }
+
+
+/*Page error 404 responsive*/
+body.error404{    
+    div.entry h1 {
+            font-size: 133px;
+            color: #eb6947;
+        }
+
+        div.entry p {
+            font-size: 19px !important;
+            line-height: 75px;
+            width: 180vh;
+            color: #eb6947;
+           
+        }
+
+        strong.strong-blue-404 {
+            padding: 0px 40px 0px 40px;
+            color: #fff;
+            background-color: #eb6947;
+            border-radius: 13px;
+            transition: 0.5s;
+            font-size: 49px !important;
+        }
+
+        div#main-content {
+            background-image: linear-gradient(300deg, #0165c5 46%, #ffffff 0%);
+            height: 100vh;
+        }
+
+        span.text-responsive-white{
+            color: #fff;
+            position: relative;
+            left: 1%;
+        }
+
+        div.container {
+            padding-top: 20% !important;
+        }
+    }
+/*------------------------*/
+}
+
+@media screen and (min-width: 768px){
+    body.error404{
+        div.container {
+            padding-top: 30% !important;
+        }
+
+        div.entry p {
+            font-size: 35px !important;
+        }
+
+        div#main-content {
+            background-image: linear-gradient(310deg, #0165c5 47%, #ffffff 0%);         
+        }
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -58,7 +116,7 @@ div.img-first-container, div.img-second-container, div.img-third-container{
     }
 
     div.et_pb_section.et_pb_section_0 {
-        background-image: linear-gradient(360deg,#0165c5 46%,#ffffff 0%)!important;
+        background-image: linear-gradient(360deg,#0165c5 46%,#ffffff 0%);
     }
 }
 

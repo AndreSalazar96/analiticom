@@ -1,0 +1,64 @@
+/*404 page style*/
+body.error404{
+    #main-content .container:before{
+        background-color: #e2e2e200;
+    }
+
+    #left-area{
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    div.entry{
+        p{
+            font-size: 50px;
+            line-height: 75px;
+            width: 180vh;
+            color:  $naranjaColor;
+        }
+
+        a{
+            color: $naranjaColor;   
+        }
+
+        strong.strong-blue-404{
+            padding: 0px 40px 0px 40px;
+            color: #fff;
+            background-color: #eb6947;
+            border-radius: 6px;
+            transition: 0.5s;
+            font-size: 35px;
+
+            &:hover{
+                background-color: #fff;
+                border: 3px solid $naranjaColor;
+                color: $naranjaColor;
+                transition: 0.5s;
+            }
+        }
+
+        h1 {
+            font-size: 240px;
+            color:  $naranjaColor;
+        }
+    }
+    div#main-content{
+        background-image: linear-gradient(341deg,#0165c5 46%,#ffffff 0%);
+        height: 100vh;
+    }
+
+    div.container{
+        padding-top: 80px !important;
+    }
+
+    a.redirect-btn-orange{
+        display: block;
+    }
+}
