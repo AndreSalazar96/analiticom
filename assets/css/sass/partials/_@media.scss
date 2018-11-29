@@ -85,6 +85,12 @@ body.error404{
         }
     }
 /*------------------------*/
+
+    /*Menu responsive*/
+    img#logo{
+            max-height: 120% !important;
+    }
+    /*---------------*/
 }
 
 @media screen and (min-width: 768px){
