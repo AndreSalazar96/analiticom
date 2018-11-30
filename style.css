@@ -359,7 +359,7 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
   }
   /* line 77, assets/css/sass/partials/_@media.scss */
   body.error404 span.text-responsive-white {
-    color: #fff;
+    color: #000;
     position: relative;
     left: 1%;
   }
@@ -377,27 +377,43 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
 
   /*---------------*/
 }
+@media screen and (max-width: 900px) {
+  /* line 99, assets/css/sass/partials/_@media.scss */
+  body.error404 span.text-responsive-white {
+    color: #000 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 107, assets/css/sass/partials/_@media.scss */
+  body.error404 span.text-responsive-white {
+    color: #fff !important;
+  }
+  /* line 110, assets/css/sass/partials/_@media.scss */
+  body.error404 div#main-content {
+    background-image: linear-gradient(316deg, #0165c5 52%, #ffffff 0%) !important;
+  }
+}
 @media screen and (min-width: 768px) {
-  /* line 98, assets/css/sass/partials/_@media.scss */
+  /* line 118, assets/css/sass/partials/_@media.scss */
   body.error404 div.container {
     padding-top: 30% !important;
   }
-  /* line 102, assets/css/sass/partials/_@media.scss */
+  /* line 122, assets/css/sass/partials/_@media.scss */
   body.error404 div.entry p {
     font-size: 35px !important;
   }
-  /* line 106, assets/css/sass/partials/_@media.scss */
+  /* line 126, assets/css/sass/partials/_@media.scss */
   body.error404 div#main-content {
     background-image: linear-gradient(310deg, #0165c5 47%, #ffffff 0%);
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 113, assets/css/sass/partials/_@media.scss */
+  /* line 133, assets/css/sass/partials/_@media.scss */
   body {
     overflow-y: scroll !important;
   }
 
-  /* line 117, assets/css/sass/partials/_@media.scss */
+  /* line 137, assets/css/sass/partials/_@media.scss */
   .et_pb_module.et_pb_image.et_pb_image_0.img-analiticom-contruction-a.et_always_center_on_mobile img {
     max-width: 100vh !important;
     position: relative;
@@ -405,7 +421,7 @@ form.et_pb_contact_form.clearfix textarea.et_pb_contact_message.input {
     right: 20vh;
   }
 
-  /* line 124, assets/css/sass/partials/_@media.scss */
+  /* line 144, assets/css/sass/partials/_@media.scss */
   div.et_pb_section.et_pb_section_0 {
     background-image: linear-gradient(360deg, #0165c5 46%, #ffffff 0%);
   }
