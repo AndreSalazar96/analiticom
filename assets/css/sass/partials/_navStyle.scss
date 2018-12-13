@@ -24,8 +24,10 @@ span.trp-ls-language-name.dynamiClassNav-nro-0{
 #main-header .et_mobile_menu{
     background-color: rgb(255, 255, 255) !important;
 }
-
-
-
-
 /*---------*/
+
+body.page-id-146{
+    header#main-header{
+        display: none;
+    } 
+}

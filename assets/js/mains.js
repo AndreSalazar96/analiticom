@@ -35,3 +35,12 @@ function messegeFunction(){
 }
 
 messegeFunction();
+
+/*-------------------------*/
+
+function redirectButton(){
+    jQuery('.et_pb_contact_submit.et_pb_button').click(function(){
+        window.location.replace("http://analiticom.com/comeback");
+    });
+}
+redirectButton();

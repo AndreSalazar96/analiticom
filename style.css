@@ -120,6 +120,11 @@ span.trp-ls-language-name.dynamiClassNav-nro-0 {
 }
 
 /*---------*/
+/* line 30, assets/css/sass/partials/_navStyle.scss */
+body.page-id-146 header#main-header {
+  display: none;
+}
+
 /*Tipography style*/
 /* line 2, assets/css/sass/partials/tipography.scss */
 a#btn-blue.et_pb_button.et_pb_button_0.btn-blue-first-banner.et_pb_bg_layout_light {
@@ -173,6 +178,11 @@ p.third-img-text {
   margin-top: 8%;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
   color: #adadad;
+}
+
+/* line 38, assets/css/sass/partials/_sectionsStyle.scss */
+body.page-id-146 .et_pb_section.et_pb_section_0.et_section_regular.et_pb_section_first {
+  padding-top: 110px !important;
 }
 
 /*Image Style width and height*/
